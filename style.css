@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header__body {
+    position: relative;
+}
+
+.header {
+    min-height: 177vw;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px 0;
+    background-image: url("../images/banner-mobile.jpg");
+    background-color: bisque;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.header::after {
+    content: "";
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    text-align: right;
+}
+
+.logolink {
+    text-align: center;
+}
+
+.sitetitle {
+    text-align: center;
+    /* color: white; */
+    font-size: 20px;
+    text-transform: uppercase;
+}
