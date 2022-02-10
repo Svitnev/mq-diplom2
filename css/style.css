@@ -34,7 +34,8 @@ button {
     display: flex;
     flex-direction: column;
     padding: 25px 15px 0;
-    background-image: url(file:///C:/Users/Dimasik/Desktop/mq-diplom/images/banner-mobile.jpg);
+    background-image: url("../images/banner-mobile.jpg");
+    background-color: bisque;
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -61,7 +62,7 @@ button {
 
 .sitetitle {
     text-align: center;
-    color: white;
+    /* color: white; */
     font-size: 20px;
     text-transform: uppercase;
 }
