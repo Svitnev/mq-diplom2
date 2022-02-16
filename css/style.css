@@ -25,6 +25,20 @@ button {
     cursor: pointer;
 }
 
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.woff), url(../fonts/OpenSans-Bold.woff2), url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.woff), url(../fonts/OpenSans-Regular.woff2), url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .header__body {
     position: relative;
 }
@@ -102,6 +116,7 @@ button {
 
 .sitetitle {
     text-align: center;
+    font-family: OpenSans-Bold;
     color: white;
     font-size: 20px;
     text-transform: uppercase;
