@@ -58,6 +58,7 @@ button {
 
 .header__wrapper {
     padding: 25px 15px 0;
+    z-index: 1;
 }
 
 .header::after {
@@ -71,7 +72,12 @@ button {
     right: 0;
 }
 
+nav.nav {
+    align-self: flex-end;
+}
+
 .burger {
+    margin-left: auto;
     display: block;
     position: relative;
     width: 23px;
@@ -111,10 +117,12 @@ button {
 }
 
 .logo {
-    padding: 30px;
+    margin: 30vh 4vh 7vh;
 }
 
 .sitetitle {
+    margin-left: 4vh;
+    margin-right: 4vh;
     text-align: center;
     font-family: OpenSans-Bold;
     color: white;
