@@ -49,7 +49,7 @@ button {
     display: flex;
     flex-direction: column;
     background-image: url("../images/banner-mobile.jpg");
-    background-color: blueviolet;
+    background-color: #aaa;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -131,9 +131,38 @@ nav.nav {
     font-size: 19px;
 }
 
-.now-trends {
+.trends__title {
     text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 42px;
+    margin-bottom: 27px
+}
+
+.title::after {
+    display: block;
+    content: "";
+    background-color: #bdb76b;
+    margin: 12px auto;
+    width: 66px;
+    height: 3px;
+}
+
+.trends__trend {
+    position: relative;
+    /* display: flex; */
+    height: 231px;
+    background-image: url("../images/trend1.jpg");
+    background-color: #aaa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.trends__trend-content {
+    margin: 80px auto;
+    width: 91.7%;
+    position: absolute;
+    border: 3px solid #bdb76b;
 }
